@@ -40,12 +40,15 @@ There are several key goals for these components:
   Thrift takes care of the boilerplate of serialization and RPC, and enables the developer to focus on the schema of the system's serializable types and on the interfaces of system's RPC services.
 
 * Cross language support
+
   Thrift enables intercommunication between different languages. For example, a Python client communicating with a C++ server.
 
 * Performance
+
   Thrift structures and services enable fast serialization and deserialization, and its RPC protocol and frameworks are designed with performance as a feature.
 
 * Backwards compatibility
+
   Thrift allows fields to be added to and removed from serializable types in a manner that preserves backward and forward compatibility.
 
 ---
